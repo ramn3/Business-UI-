@@ -1,113 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <title>My Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="content">
-        <div class="header">
-            <div class="logo"><img src="img/Logo.svg"></div>
-            <nav class="menu">
-                <a href="" class="header-text">Investors</a>
-                <a href="" class="header-text">About Us</a>
-                <a href="" class="header-text">Our Services</a>
-                <a href="" class="header-text">News & Media</a>
-                <a href="" class="header-text">Career</a>
-                <a href="" class="header-text">Our Locations</a>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <a href="https://vk.com/ushel_vo_front" class="header__logo"><img src="img/Logo.png" alt="Alivio"></a>
+            <nav class="header__menu">
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">Why Alivio</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">Solutions</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">Community</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">Pricing</a></li>
+                  </ul>
             </nav>
-            <div class="icon"><img src = "img/Page 1.png"></div>
-		</div>
-        <div class="firstblock">
-            <div class="firstblock__imageblock">
-                <img class="firstblock__imageblock__background" src="img/Page 2.png">
-                <img class="firstblock__imageblock__blue-overlay" src="img/Mask.png">
-                <div class="firstblock__imageblock__text">Building a high growth, high quality debt management services company</div>
+            <div class="header__actions">
+                <a href="#" class="header__action-link">Sign in</a>
+                <a href="#" class="button button-header">Start Trial</a>
+            </div>  
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+          <div class="hero__content">
+            <h1 class="title title-hero">Be aware,<br>Manage well.</h1>
+            <p class="hero__description">Everyone experiences stress in different ways.<br> Let Alivio guide you, in a personalized journal<br> experience, to overcome your stress.</p>
+            <a href="#" class="button button-hero">Find Your Way</a>
+          </div>
+      </section>
+      <div class="container">
+        <section class="how-it-works">
+            <!-- <div class="mini-title mini-title-how-it-works">How it works</div> -->
+            <div class="how-it-works__header">
+              <h1 class="title title-how-it-works">Understand & Release<br>the stress in 3 steps</h1>
+              <p class="p-how-it-works">Alivio offers as many journals it takes, tackling different areas such as<br>anxiety, overwhelmedness, sadness, or anger, and a variety of personal<br> causes, to help you become aware of your emotions, and guide you in how<br> to manage stress.</p>
+            </div>   
+            <div class="how-it-works__steps">
+              <div class="step">
+                <div class="step__number">01</div>
+                <h3 class="step__title">Personalize</h3>
+                <p class="step__description">
+                  Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!
+                </p>
+                <div class="step__image">
+                  <img src="img/step-image-1.png" alt="Personalize step image">
+                </div>
+              </div>
+              <div class="step">
+                <div class="step__number">02</div>
+                <h3 class="step__title">Write & Understand</h3>
+                <p class="step__description">
+                  Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!
+                </p>
+                <div class="step__image">
+                  <img src="img/step-image-2.png" alt="Write and Understand step image">
+                </div>
+              </div>
+              <div class="step">
+                <div class="step__number">03</div>
+                <h3 class="step__title">Alivio!</h3>
+                <p class="step__description">
+                  Now you are aware, and have a way to manage and overcome your own stress. What are you waiting for? Alivio today!
+                </p>
+                <div class="step__image">
+                  <img src="img/step-image-3.png" alt="Alivio step image">
+                </div>
+              </div>
             </div>
-            <div class="firstblock__text">We're a group of companies within the credit management services industry. We are primarily focusing on large and high growth NPL markets, and have operations in Spain, Italy, Germany, Norway and Sweden. We have an ambitious Pan-European growth strategy and are continuously exploring new markets in Europe.</div>
-            <a href="" class="firstblock__button">Annual General Meeting 2017</a>
-        </div>
-        <div class="secondblock">
-            <div class="secondblock__title">Investor Relations</div>
-            <div class="secondblock__text">We're Investor Relations team is striving to serve all shareholders <br> and potential investors by providing consistent, open and timely disclosure of relevant information.</div>
-            <div class="secondblock__table">
-                <div class="secondblock__table__cell">
-                    <div class="secondblock__table__cell_value">77.95</div>
-                    <div class="secondblock__table__cell_text">Share Price (NOK)</div>
-                </div>
-                <div class="secondblock__table__cell">
-                    <div class="secondblock__table__cell_value">2.26</div>
-                    <div class="secondblock__table__cell_text">Last Change</div>
-                </div>
-                <div class="secondblock__table__cell">
-                    <div class="secondblock__table__cell_value">9,587,985</div>
-                    <div class="secondblock__table__cell_text">Volume (thousands)</div>
-                </div>
-                <div class="secondblock__table__cell">
-                    <div class="secondblock__table__cell_value">AXA</div>
-                    <div class="secondblock__table__cell_text">Ticker (Oslo Bors)</div>
-                </div>
-                <div class="secondblock__table__cell">
-                    <div class="secondblock__table__cell_value">4.15%</div>
-                    <div class="secondblock__table__cell_text">Market Cap (NOK M)</div>
-                </div>
+        </section>
+      </div>
+      <section class="success-story">
+          <div class="success-story__content">
+            <h2 class="success-story__title">Let's hear about<br>Kayla's success story</h2>
+            <p class="success-story__description">
+              See how well Alivio works in a real customer’s life.
+            </p>
+            <a href="#" class="button button-story">Let's get started</a>
+          </div>
+          <div class="success-story__video">
+            <iframe width="800" height="500" src="https://www.youtube.com/embed/lX4_0NCjqzI"></iframe>       
+            <!-- <img src="img/Video.png" alt="Kayla's success story" class="success-story__image"> -->
+          </div>
+      </section>
+      <div class="container">
+        <section class="product-section">
+            <div class="product-section__image-container">
+              <img src="img/photo-1.png" alt="Customer Mikayla" class="product-section__image">
+              <div class="product-section__details">
+                <p class="product-section__customized-for">Customized For</p>
+                <img src="img/photo-2.png" alt="Customer Mikayla" class="product-section__mini-image">
+                <h4 class="product-section__name">Mikayla</h4>
+                <h3 class="product-section__title">Your custom contents</h3>
+                <ul class="product-section__custom-contents">
+                  <li>Understand Your Stress</li>
+                  <li>Anger Management</li>
+                </ul>
+              </div>
             </div>
-            <a href="" class="secondblock__button">Read More</a>
-        </div>
-        <div class="thirdblock">
-            <div class="thirdblock__upper-part">
-                <div class="thirdblock__upper-part__title">News & Media</div>
-                <div class="thirdblock__upper-part__menu">
-                    <a href="" class="thirdblock__upper-part__menu__text">News</a>
-                    <a href="" class="thirdblock__upper-part__menu__text">Press<br>Release</a>
-                    <a href="" class="thirdblock__upper-part__menu__text">All</a>
-                </div>
+            <div class="product-section__content">
+              <div class="mini-title mini-title-product-section">Our product</div>
+              <h2 class="title title-product-section">You tell us your stress,<br>We make your diary</h2>
+              <p class="product-section__description">
+                Everyone experiences it, and in different ways.<br>Let Alivio guide you, in a personalized journal experience, to<br> overcome your stress.
+              </p>
+              <a href="#" class="button button-product-section">Find Your Way</a>
             </div>
-            <div class="thirdblock__table-container">
-                <div class="thirdblock__table">
-                    <div class="thirdblock__table__img">
-                        <img class="thirdblock__table__img__background" src="img/table_img_1.png">
-                        <img class="thirdblock__table__img__blue-overlay" src="img/Mask.png">
-                        <div class="thirdblock__table__img__title">Press Release</div>
-                        <div class="thirdblock__table__img__text">increases existing loan facilities</div>
-                    </div>
-                    <div class="thirdblock__table__text">On May 5,  2017 the 4th tranche under the Recurring Credit Facility which has with DNB Bank ASA and Nordea Bank AS was made available to the company.</div>
-                    <a href="" class="thirdblock__table__button">Read More</a>
-                </div>
-                <div class="thirdblock__table">
-                    <div class="thirdblock__table__img">
-                        <img class="thirdblock__table__img__background" src="img/table_img_2.png">
-                        <img class="thirdblock__table__img__blue-overlay" src="img/Mask.png">
-                        <div class="thirdblock__table__img__title">News</div>
-                        <div class="thirdblock__table__img__text">acquires another primary portfolio in spain</div>
-                    </div>
-                    <div class="thirdblock__table__text">On May 5,  2017 the 4th tranche under the Recurring Credit Facility which  has with DNB Bank ASA and Nordea Bank AS was made available to the company.</div>
-                    <a href="" class="thirdblock__table__button">Read More</a>
-                </div>
-                <div class="thirdblock__table">
-                    <div class="thirdblock__table__img">
-                        <img class="thirdblock__table__img__background" src="img/table_img_3.png">
-                        <img class="thirdblock__table__img__blue-overlay" src="img/Mask.png">
-                        <div class="thirdblock__table__img__title">Press Release</div>
-                        <div class="thirdblock__table__img__text">increases existing loan facilities</div>
-                    </div>
-                    <div class="thirdblock__table__text">On May 5,  2017 the 4th tranche under the Recurring Credit Facility which  has with DNB Bank ASA and Nordea Bank AS was made available to the company.</div>
-                    <a href="" class="thirdblock__table__button">Read More</a>
-                </div>
-            </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__section">
+          <h2 class="footer__title">Alivio</h2>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Why Alivio</a></li>
+            <li><a href="#" class="footer__link">Solutions</a></li>
+            <li><a href="#" class="footer__link">Community</a></li>
+            <li><a href="#" class="footer__link">Pricing</a></li>
+          </ul>
         </div>
-        <div class="fourthblock">
-            <div class="fourthblock__text">Learn more about Us in your country</div>
-            <img class="fourthblock__imageblock" src="img/Map.png">
-        </div>
-        <div class="footer">
-            <div class="footer__text">Business 2017</div>
-            <div class="footer__text">Terms & Conditions     	Privacy Policy</div>
-        </div>
-    </div>
+      </div>
+    </footer>    
 </body>
 </html>
