@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alivio</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <header id="header" class="header">
       <div class="container">
         <div class="header__container">
-          <a href="https://vk.com/ushel_vo_front" class="header__logo"><img src="img/Logo.png" alt="Alivio"></a>
+          <a href="#header" class="header__logo"><img src="img/Logo.png" alt="Alivio"></a>
             <nav class="header__menu">
                 <ul class="header__menu">
-                    <li class="header__menu-item"><a href="#" class="header__menu-link">Why Alivio</a></li>
-                    <li class="header__menu-item"><a href="#" class="header__menu-link">Solutions</a></li>
-                    <li class="header__menu-item"><a href="#" class="header__menu-link">Community</a></li>
-                    <li class="header__menu-item"><a href="#" class="header__menu-link">Pricing</a></li>
+                    <li class="header__menu-item"><a href="#why-alivio" class="header__menu-link">Why Alivio</a></li>
+                    <li class="header__menu-item"><a href="#solutions" class="header__menu-link">Solutions</a></li>
+                    <li class="header__menu-item"><a href="#community" class="header__menu-link">Community</a></li>
+                    <li class="header__menu-item"><a href="#pricing" class="header__menu-link">Pricing</a></li>
                   </ul>
             </nav>
             <div class="header__actions">
@@ -30,7 +33,7 @@
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section id="why-alivio" class="hero">
           <div class="hero__content">
             <h1 class="title title-hero">Be aware,<br>Manage well.</h1>
             <p class="hero__description">Everyone experiences stress in different ways.<br> Let Alivio guide you, in a personalized journal<br> experience, to overcome your stress.</p>
@@ -38,7 +41,7 @@
           </div>
       </section>
       <div class="container">
-        <section class="how-it-works">
+        <section id="solutions" class="how-it-works">
             <!-- <div class="mini-title mini-title-how-it-works">How it works</div> -->
             <div class="how-it-works__header">
               <h1 class="title title-how-it-works">Understand & Release<br>the stress in 3 steps</h1>
@@ -78,7 +81,7 @@
             </div>
         </section>
       </div>
-      <section class="success-story">
+      <section id="community" class="success-story">
           <div class="success-story__content">
             <h2 class="success-story__title">Let's hear about<br>Kayla's success story</h2>
             <p class="success-story__description">
@@ -92,7 +95,7 @@
           </div>
       </section>
       <div class="container">
-        <section class="product-section">
+        <section id="pricing" class="product-section">
             <div class="product-section__image-container">
               <img src="img/photo-1.png" alt="Customer Mikayla" class="product-section__image">
               <div class="product-section__details">
@@ -120,12 +123,12 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__section">
-          <h2 class="footer__title">Alivio</h2>
+          <a href="#header"><h2 class="footer__title">Alivio</h2></a>
           <ul class="footer__links">
-            <li><a href="#" class="footer__link">Why Alivio</a></li>
-            <li><a href="#" class="footer__link">Solutions</a></li>
-            <li><a href="#" class="footer__link">Community</a></li>
-            <li><a href="#" class="footer__link">Pricing</a></li>
+            <li><a href="#why-alivio" class="footer__link">Why Alivio</a></li>
+            <li><a href="#solutions" class="footer__link">Solutions</a></li>
+            <li><a href="#community" class="footer__link">Community</a></li>
+            <li><a href="#pricing" class="footer__link">Pricing</a></li>
           </ul>
         </div>
       </div>

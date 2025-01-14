@@ -12,6 +12,10 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container{
     width: 100%;
     max-width: 1400px; 
@@ -61,6 +65,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 .header__menu-link:hover{
     color: #01996D;
+    transition: color 0.3s;
 }
 
 .header__actions{
@@ -75,6 +80,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 .header__action-link:hover{
     color: #01996D;
+    transition: color 0.3s;
 }
 
 .button{
@@ -92,6 +98,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 .button:hover{
     color: #000000;
+    transition: color 0.3s;
 }
 
 .hero{
@@ -134,7 +141,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 .how-it-works{
-
+    margin-bottom: 10%;
 }
 
 .mini-title{
@@ -179,8 +186,8 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 29%;
-    max-width: 390px;
+    max-width: 30%;
+    height: 1000px;
 }
 
 .step__number{
@@ -204,6 +211,7 @@ p{
 
 .step__description{
     margin: 12% 0 12% 0;
+    height: 120px;
 }
 
 .success-story{
@@ -373,4 +381,9 @@ p{
     line-height: 30px;
     color: #FFFFFF; 
     margin-bottom: 5%;
+}
+
+.footer__link:hover{
+    color: #000000;
+    transition: color 0.3s;
 }
